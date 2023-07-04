@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import styles from "./home.module.scss";
 
-const Home = () => {
+export const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
-
-export default Home
+    <>
+      <div className={styles.home}>
+        <main id="main">
+          <div
+            style={{
+              height: "200px",
+              background:
+                "linear-gradient(180deg, var(--background), var(--background-dark))",
+            }}
+          />
+        </main>
+      </div>
+    </>
+  );
+};
