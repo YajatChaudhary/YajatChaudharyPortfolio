@@ -50,9 +50,10 @@
 
   padding: 12px 32px 12px 32px;
   border-radius: 1rem;
-  background: var(--background-light);
+  background: var(--brand);
+  color: var(--background);
 }
 
 .contactEmail:hover {
-  color: var(--brand);
+  background-color: var(--text);
 }

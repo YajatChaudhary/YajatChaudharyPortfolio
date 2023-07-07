@@ -9,7 +9,7 @@
   color: var(--text);
   font-size: var(--text-sm);
   border-radius: 4px;
-
+  color: var(--background);
   position: relative;
   z-index: 20;
 
@@ -19,5 +19,6 @@
 }
 
 .standardButton:hover {
-  opacity: 0.9;
+  transition: 0.3s;
+  background-color: var(--text);
 }

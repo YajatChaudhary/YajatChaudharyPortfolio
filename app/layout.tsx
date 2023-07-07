@@ -1,7 +1,10 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Catamaran } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const catamaran = Catamaran({
+  weight: ["200","300", "400", "500", "700", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Yajat Chaudhary | Frontend Developer",
@@ -15,9 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
-      </body>
+      <body className={catamaran.className}>{children}</body>
     </html>
   );
 }

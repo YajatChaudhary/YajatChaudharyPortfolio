@@ -10,7 +10,6 @@
   color: var(--brand);
   font-size: var(--text-sm);
   border-radius: 4px;
-
   position: relative;
   z-index: 20;
 
@@ -47,7 +46,7 @@
 }
 
 .outlineButton:hover {
-  color: var(--text);
+  color: var(--background);
 }
 
 .outlineButton:hover::before {
