@@ -1,10 +1,11 @@
+"use client"
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
-import Profile from "@/public/jc.jpg";
+import Profile from "@/public/yajatchaudhary.jpg";
 
 export const Hero = () => {
   return (
@@ -42,7 +43,7 @@ export const Hero = () => {
             className={styles.profile}
             src={Profile}
             priority
-            alt="John Carlo Devera | Frontend Developer"
+            alt="Yajat Chaudhary | Frontend Developer"
             width={250}
             height={250}
           />
