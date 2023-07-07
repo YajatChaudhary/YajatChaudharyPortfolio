@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./home.module.scss";
 
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <div className={styles.home}>
@@ -13,8 +13,10 @@ export const Home = () => {
                 "linear-gradient(180deg, var(--background), var(--background-dark))",
             }}
           />
+          Hi
         </main>
       </div>
     </>
   );
 };
+export default Home;
