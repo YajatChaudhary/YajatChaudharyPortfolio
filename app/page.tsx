@@ -22,8 +22,6 @@ const Home = () => {
           <div
             style={{
               height: "200px",
-              background:
-                "linear-gradient(180deg, var(--background), var(--background-dark))",
             }}
           />
         </main>

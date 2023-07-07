@@ -22,6 +22,7 @@
     flex-shrink: 0;
 
     writing-mode: vertical-lr;
+    color: var(--background);
     font-size: var(--text-sm);
     font-weight: 200;
     display: flex;
@@ -39,12 +40,15 @@
     background: var(--background);
     border-right: 1px solid var(--brand);
     opacity: 1;
+    color: var(--background-dark);
+    transition: 0.3s;
   }
 
   .selected {
     background: var(--background);
     border-right: 1px solid var(--brand);
     opacity: 1;
+    color: var(--background-dark);
   }
 }
 
@@ -52,13 +56,12 @@
   cursor: pointer;
   flex-shrink: 0;
 
-  font-size: var(--text-md);
+  font-size: var(--text-sm);
   font-weight: 900;
   line-height: 1;
 
   width: 45px;
   height: 45px;
-
   display: flex;
   align-items: center;
   justify-content: center;
