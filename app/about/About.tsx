@@ -13,20 +13,20 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Howdy! I&apos;m John Carlo Devera, and I&apos;m a Bachelor of Science in Information Technology graduate.
+              Howdy! I&apos;m Yajat Chaudhary, and I&apos;m a Bachelor of Technology in Mathematics and Computing .
               <br/><br/>
-              I have experience working in both the mobile and web development worlds, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
+              I have experience working in web development world, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
              </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               My skills include HTML, CSS, JavaScript, and various frontend frameworks like React and Vue.js. 
-              I&apos;ve also worked with backend technologies like Node.js, Firebase, MongoDB and PHP/Laravel , allowing me to build full-stack applications.
+              I also have decent knownledge of Data Structures and Algorithms in C++.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I enjoy digital painting. 
+              When I&apos;m not coding, I solving a rubik&apos;s cube. 
               I believe that maintaining a healthy work-life balance is crucial for staying productive and motivated.
             </p>
           </Reveal>
