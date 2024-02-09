@@ -7,7 +7,7 @@ import { Hero } from "./hero/hero/Hero";
 import { About } from "./about/About";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
-import { Projects } from "./projects/Projects";
+// import { Projects } from "./projects/Projects";
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
           <Heading/>
           <Hero/>
           <About/>
-          <Projects/>
+          {/* <Projects/> */}
           <Experience/>
           <Contact/>
           <div

@@ -46,6 +46,7 @@ export const Hero = () => {
             alt="Yajat Chaudhary | Frontend Developer"
             width={250}
             height={250}
+            style={{zIndex:15}}
           />
         </motion.div>
       </div>
